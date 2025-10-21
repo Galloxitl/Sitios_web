@@ -1,7 +1,7 @@
 // Cuenta regresiva para la boda
 function updateCountdown() {
     // Usar formato ISO o constructor de Date con parámetros separados
-    const weddingDate = new Date(2025, 8, 30, 18, 0, 0).getTime(); // Mes 6 = Julio (0-indexed)
+    const weddingDate = new Date(2025, 9, 30, 18, 0, 0).getTime(); // Mes 6 = Julio (0-indexed)
     const now = new Date().getTime();
     const distance = weddingDate - now;
 
